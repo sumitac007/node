@@ -20,4 +20,3 @@ function solveRect(l,b){
 }	
 solveRect(1,2);
 solveRect(-1,2);
-solveRect(3,4);
