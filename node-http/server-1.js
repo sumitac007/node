@@ -1,12 +1,12 @@
 var http = require('http');
 
-var hostname = 'pneitsh61925d	';
+var hostname = 'pneitsh61925d';
 var port = '3000';
 
-var server = http.createServer(function(req,res){
+var server;
+server = http.createServer(function (req, res) {
 	console.log(req.headers);
-
-	res.writeHead(200, { 'Content-Type': 'text/html' });
+	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.end('<html><body><h1>Hello World</h1></body></html>');
 });
 
